@@ -1,0 +1,72 @@
+.bottomContainer {
+    background: rgba(230, 242, 242, 1);
+    width: 100%;
+    height: fit-content;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.container {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    gap: 32px;
+}
+.categoryContainer {
+    flex: 1;
+}
+.categoryContainer h1 {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(0, 26, 26, 1);
+    margin-bottom: 16px;
+}
+.travelGuideContainer {
+    flex: 1;
+}
+.travelGuideContainer h1 {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(0, 26, 26, 1);
+    margin-bottom: 10px;
+}
+.travelGuideCard {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px;
+    border-radius: 8px;
+    height: 176px;
+}
+.leftPart{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.leftPart h3 {
+    color: #001a1a;
+    font-weight: 700;
+    font-size: 24px;
+}
+.leftPart p {
+    font-size: 16px;
+    color: #001a1a;
+}
+.leftPart button {
+    border: 1px solid #008080;
+    border-radius: 8px;
+    color: #008080;
+    padding: 9px;
+    font-size: 16px;
+    font-weight: 700;
+    width: 107px;
+    align-content: center;
+}
+@media (max-width:930px) {
+  .container{
+    flex-direction: column;
+  }
+  .travelGuideCard{
+    height: max-content;
+  }
+}

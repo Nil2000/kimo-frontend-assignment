@@ -1,0 +1,53 @@
+.HawaiiText{
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 6.44%, #FFFFFF 95.08%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 35vw;
+  text-align: center;
+  padding-top: 4rem;
+}
+.image{
+  height: 400px;
+}
+.highlightsContainer{
+  width: 75%;
+  margin: 40px auto;
+}
+.highLightsText{
+  font-size: 16px;
+}
+.highlightItemsContainer{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width:930px) {
+  .HawaiiText{
+    width: 90%;
+    font-size: 3rem;
+  }
+  .container{
+    width: 100%;
+  }
+  .image{
+    width: 100vw;
+    object-fit: fill;
+    height: 400px;
+  }
+  .highlightsContainer{
+    width: 90%;
+  }
+  
+}
+@media (max-width:1320px){
+  .HawaiiText{
+    width: 90%;
+    font-size: 4rem;
+  }
+  .highlightItemsContainer{
+    width: 100%;
+    overflow-x: auto;
+    height: fit-content;
+  }
+}

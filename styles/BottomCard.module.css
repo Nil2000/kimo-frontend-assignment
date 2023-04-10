@@ -1,0 +1,46 @@
+.bottomCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    /* height: 68px; */
+    background: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+.bottomMain{
+  padding: 24px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.bottomCard h1 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #001a1a;
+    vertical-align: middle;
+}
+.dropDownContainer{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  z-index: 20;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.dropDownContainer li{
+  list-style: none;
+  padding: 24px;
+  color: #009191;
+  font-weight: 700;
+}
+.dropDownIcon{
+  transition: transform 0.3s ease-in-out;
+}
+.dropDownIconRotated {
+  transition: transform 0.3s ease-in-out;
+  transform: rotate(90deg);
+}

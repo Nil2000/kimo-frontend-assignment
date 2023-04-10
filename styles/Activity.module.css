@@ -1,0 +1,56 @@
+.image{
+  height: 300px;
+  object-fit: cover;
+}
+.titleText{
+  margin-top: 4rem;
+  text-align: left;
+  color: white;
+}
+.waveImage{
+  background-color: antiquewhite;
+  height: auto;
+  width: 100vw;
+  /* margin-top: -100px; */
+  z-index: 999;
+}
+.body{
+  width: 75%;
+  margin: 40px auto;
+  font-size: 20px;
+}
+.listContainer{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: space-evenly;
+}
+.listItem{
+  width: 45%;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-grow: 1;
+  font-weight: 700;
+  line-height: normal;
+}
+.icon{
+  color: rgba(0, 128, 128, 1);
+}
+@media (max-width:930px){
+  .listContainer{
+    flex-direction: column;
+  }
+  .listItem{
+    width: 100%;
+  }
+  .titleText{
+    width: 90%;
+    font-size: 3rem;
+    text-align: center;
+  }
+  .container{
+    width: 100%;
+  }
+}
